@@ -1,9 +1,9 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
       <div class="logo">
         <router-link to="/">
-          <img src="../assets/Logo.png" alt="logo" width="258"/>
+          <img src="../assets/Logo.png" alt="logo" width="200"/>
         </router-link>
       </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,6 +43,6 @@ export default {
   background-color: rgba(255, 255, 255, 0.1);
 }
 .nav-item{
-  padding:12px;
+  padding:10px;
 }
 </style>
