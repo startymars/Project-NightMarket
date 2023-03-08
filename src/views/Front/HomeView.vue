@@ -76,36 +76,47 @@
     </div>
     <div class="bgHistory">
       <div class="container">
-        <div class="historyCulture d-flex flex-row-reverse">
-          <div class="historyText">歷史文化</div>
-          <div class="historyDetail">/夜市在臺灣，有超過100年的歷史。通常是因為當地的交通方便，或是有遼闊場地以及多人群聚集而加以形成。
-            <br>據《臺灣日日新報》資料，1908年，有人在鳳山廳旗津天后宮廟前空地設夜市，營業時間為18時至24時。<br>
+        <div class="historyCulture d-flex flex-row-reverse justify-content-lg-evenly">
+          <div class="historyText">
+            歷史文化
+           <div class="historyTag fs-3">納涼的</div>
+          </div>
+          <div class="historyDetail">/<br>夜市在臺灣，有超過100年的歷史。通常是因為當地的交通方便，或是有遼闊場地以及多人群聚集而加以形成。
+            <br><br>據《臺灣日日新報》資料，1908年，有人在鳳山廳旗津天后宮廟前空地設夜市，營業時間為18時至24時。<br><br>
             此外，日治時期的納涼（日語：納涼）會活動也影響了後續臺灣夜市的發展
           </div>
+          <div class="historySmallImg d-flex">
+            <img src='/src/assets/history-2.png' alt="history2">
+             <img src='/src/assets/history-3.png' alt="history3">
+              <img src='/src/assets/history-4.png' alt="history4">
+          </div>
         </div>
-        <div class="marketCulture d-flex justify-content-lg-between align-items-center">
+        <div class="marketCulture d-flex justify-content-lg-between align-items-start">
           <img src='/src/assets/carouselImg.png' alt="" class="rounded-circle" width="400" height="400"/>
-          <div class="marketText">夜市文化</div>
+          <div class="marketText">
+            夜市文化
+            <div class="marketTag fs-3">台灣的</div>
+          </div>
           <div class="marketDetail">
             <div class="subDetail">
-              /台灣小吃與夜市文化更是獨步全球，種類多樣化，是台灣人生活中最具代表性的飲食文化，舉凡蚵仔煎、蚵仔麵線、臭豆腐、炒米粉、大餅包小餅、萬巒豬腳、大腸蚵仔麵線、甜不辣、台南但仔麵…等,皆是台灣風味獨特的小吃名食，價位便宜又好吃，並且可以吃出該地的人文特色。
-              <br>此外，夜市也是台灣飲食的特殊的文化，每個夜市充斥琳瑯滿目的特產與小吃美食，各有不同的特色與風味。<br>透過地方小吃，遊客可以更認識地方特產、文化與人文典故。因此，遊台灣，別錯過了精采絕倫的「夜市文化」!
+              /<br>台灣小吃與夜市文化更是獨步全球，種類多樣化，是台灣人生活中最具代表性的飲食文化，舉凡蚵仔煎、蚵仔麵線、臭豆腐、炒米粉、大餅包小餅、萬巒豬腳、大腸蚵仔麵線、甜不辣、台南但仔麵…等,皆是台灣風味獨特的小吃名食，價位便宜又好吃，並且可以吃出該地的人文特色。
+              <br><br>此外，夜市也是台灣飲食的特殊的文化，每個夜市充斥琳瑯滿目的特產與小吃美食，各有不同的特色與風味。<br><br>透過地方小吃，遊客可以更認識地方特產、文化與人文典故。因此，遊台灣，別錯過了精采絕倫的「夜市文化」!
             </div>
             <ul class="marketCount d-flex">
               <li class="text-center border-end px-5">
-                <div class="nCount fs-3 mb-2">36</div>
+                <div class="nCount fs-3 fw-bold mb-2">36</div>
                 <div class="nCity">北部</div>
               </li>
               <li class="text-center border-end px-5">
-                <div class="nCount fs-3 mb-2">49</div>
+                <div class="nCount fs-3 fw-bold mb-2">49</div>
                 <div class="nCity">中部</div>
               </li>
               <li class="text-center border-end px-5">
-                <div class="nCount fs-3 mb-2">52</div>
+                <div class="nCount fs-3 fw-bold mb-2">52</div>
                 <div class="nCity">南部</div>
               </li>
               <li class="text-center px-5">
-                <div class="nCount fs-3 mb-2">24</div>
+                <div class="nCount fs-3 fw-bold mb-2">24</div>
                 <div class="nCity">東部</div>
               </li>
             </ul>
@@ -280,6 +291,72 @@ right: -10px;
   background-repeat: no-repeat;
   background-size: cover;
   color:#fff;
+}
+
+.historyCulture{
+  margin-bottom: 311px;
+}
+
+.historyText{
+  position: relative;
+  font-size: 80px;
+  font-weight: bold;
+  margin-top: 168px;
+  -webkit-writing-mode: vertical-lr;
+  writing-mode: vertical-lr;
+  z-index: 1;
+}
+
+.historyText::after{
+  content:"History \A and \A Culture";
+  white-space:pre;
+  position: absolute;
+  color:#919191;
+  font-size: 20px;
+  right:35%;
+  bottom:-20%;
+}
+
+.historyDetail{
+  margin-top: 320px;
+  width: 526px;
+  margin-right: 316px;
+  font-size: 20px;
+   z-index: 2;
+}
+.historySmallImg{
+  width: 408px;
+  height: 306px;
+  position: absolute;
+  margin-top: 220px;
+  left:200px;
+}
+
+.subDetail{
+  width: 526px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.subDetail::before{
+  content:"History of \A Night Maret";
+  white-space:pre;
+  position: absolute;
+  color:#919191;
+  font-size: 20px;
+  top:-20%;
+}
+
+.marketDetail{
+  position: relative;
+}
+
+.marketText{
+  font-size: 80px;
+  font-weight: bold;
+  -webkit-writing-mode: vertical-lr;
+  writing-mode: vertical-lr;
 }
 
 @media screen and (max-width:992px){
