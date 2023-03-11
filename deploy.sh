@@ -24,6 +24,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:startymars/startymars.github.io.git main
 
 # if you are deploying to https://startymars.github.io/Project-NightMarket
-git push -f https://github.com/startymars/Project-NightMarket.git main:gh-pages
+git push -f https://github.com/startymars/nightMarket.git main:gh-pages
 
 cd -

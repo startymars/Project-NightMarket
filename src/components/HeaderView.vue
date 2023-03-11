@@ -33,6 +33,17 @@
 </template>
 
 <script>
+
+window.addEventListener('scroll', function () {
+  const scrollTop = window.pageYOffset || document.documentElement.scrollTop
+  const nav = document.querySelector('nav')
+  if (scrollTop > 100) {
+    nav.classList.add('scrolled')
+  } else {
+    nav.classList.remove('scrolled')
+  }
+})
+
 export default {
 
 }
@@ -44,5 +55,9 @@ export default {
 }
 .nav-item{
   padding:10px;
+}
+
+nav.scrolled {
+  background-color: black;
 }
 </style>

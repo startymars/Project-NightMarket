@@ -91,8 +91,8 @@
               <img src='/src/assets/history-4.png' alt="history4">
           </div>
         </div>
-        <div class="marketCulture d-flex justify-content-lg-between align-items-start">
-          <img src='/src/assets/carouselImg.png' alt="" class="rounded-circle" width="400" height="400"/>
+        <div class="marketCulture d-lg-flex justify-content-lg-between align-items-start">
+          <div class="historyImg"></div>
           <div class="marketText">
             夜市文化
             <div class="marketTag fs-3">台灣的</div>
@@ -103,19 +103,19 @@
               <br><br>此外，夜市也是台灣飲食的特殊的文化，每個夜市充斥琳瑯滿目的特產與小吃美食，各有不同的特色與風味。<br><br>透過地方小吃，遊客可以更認識地方特產、文化與人文典故。因此，遊台灣，別錯過了精采絕倫的「夜市文化」!
             </div>
             <ul class="marketCount d-flex">
-              <li class="text-center border-end px-5">
+              <li class="text-center border-end">
                 <div class="nCount fs-3 fw-bold mb-2">36</div>
                 <div class="nCity">北部</div>
               </li>
-              <li class="text-center border-end px-5">
+              <li class="text-center border-end">
                 <div class="nCount fs-3 fw-bold mb-2">49</div>
                 <div class="nCity">中部</div>
               </li>
-              <li class="text-center border-end px-5">
+              <li class="text-center border-end">
                 <div class="nCount fs-3 fw-bold mb-2">52</div>
                 <div class="nCity">南部</div>
               </li>
-              <li class="text-center px-5">
+              <li class="text-center">
                 <div class="nCount fs-3 fw-bold mb-2">24</div>
                 <div class="nCity">東部</div>
               </li>
@@ -131,7 +131,100 @@
           <div class="h1 fw-bold mt-3">人氣美食</div>
         </div>
         <div class="row">
-          <div class="col-4 mb-5">
+          <div class="col-lg-4 col-md-6 mb-5">
+            <div class="productImg">
+              <a href="#">
+                <img src='/src/assets/food-1.png' class="card-img-top" alt="food-1">
+              </a>
+              <div class="productTag d-flex flex-column">
+                <span class="fw-bold">炸</span>
+                <span class="fw-bold">物</span>
+              </div>
+            </div>
+            <div class="productContent mt-3">
+              <div class="title d-flex justify-content-between align-items-center">
+                <a href="#" class="text-decoration-none"><h3 class="cardTitle fw-bold">炭烤雞排</h3></a>
+                <div class="productIcon">
+                  <a href="#">
+                    <span class="material-symbols-outlined">shopping_cart</span>
+                  </a>
+                  <a href="#">
+                   <span class="material-symbols-outlined">favorite</span>
+                  </a>
+                </div>
+              </div>
+               <div class="description d-flex flex-column justify-content-start">
+                <p class="detail">炸得又香又酥的雞排和鹹酥雞，大口咬下滿滿雞汁，配上蒜頭香、九層塔香，撒墊胡椒和辣粉，光是用......</p>
+                <div class="price d-flex">
+                  <span class="fw-bold">NT$70</span>
+                  <span><del>90</del></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6  mb-5">
+            <div class="productImg">
+              <a href="#">
+                <img src='/src/assets/food-1.png' class="card-img-top" alt="food-1">
+              </a>
+              <div class="productTag d-flex flex-column">
+                <span class="fw-bold">炸</span>
+                <span class="fw-bold">物</span>
+              </div>
+            </div>
+            <div class="productContent mt-3">
+              <div class="title d-flex justify-content-between align-items-center">
+                <a href="#" class="text-decoration-none"><h3 class="cardTitle fw-bold">炭烤雞排</h3></a>
+                <div class="productIcon">
+                  <a href="#">
+                    <span class="material-symbols-outlined">shopping_cart</span>
+                  </a>
+                  <a href="#">
+                   <span class="material-symbols-outlined">favorite</span>
+                  </a>
+                </div>
+              </div>
+               <div class="description d-flex flex-column justify-content-start">
+                <p class="detail">炸得又香又酥的雞排和鹹酥雞，大口咬下滿滿雞汁，配上蒜頭香、九層塔香，撒墊胡椒和辣粉，光是用......</p>
+                <div class="price d-flex">
+                  <span class="fw-bold">NT$70</span>
+                  <span><del>90</del></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6  mb-5">
+            <div class="productImg">
+              <a href="#">
+                <img src='/src/assets/food-1.png' class="card-img-top" alt="food-1">
+              </a>
+              <div class="productTag d-flex flex-column">
+                <span class="fw-bold">炸</span>
+                <span class="fw-bold">物</span>
+              </div>
+            </div>
+            <div class="productContent mt-3">
+              <div class="title d-flex justify-content-between align-items-center">
+                <a href="#" class="text-decoration-none"><h3 class="cardTitle fw-bold">炭烤雞排</h3></a>
+                <div class="productIcon">
+                  <a href="#">
+                    <span class="material-symbols-outlined">shopping_cart</span>
+                  </a>
+                  <a href="#">
+                   <span class="material-symbols-outlined">favorite</span>
+                  </a>
+                </div>
+              </div>
+               <div class="description d-flex flex-column justify-content-start">
+                <p class="detail">炸得又香又酥的雞排和鹹酥雞，大口咬下滿滿雞汁，配上蒜頭香、九層塔香，撒墊胡椒和辣粉，光是用......</p>
+                <div class="price d-flex">
+                  <span class="fw-bold">NT$70</span>
+                  <span><del>90</del></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6  mb-5">
             <div class="productImg">
               <a href="#">
                 <img src='/src/assets/food-1.png' class="card-img-top" alt="food-1">
@@ -165,11 +258,13 @@
         </div>
       </div>
     </div>
+    <FooterView />
   </div>
 </template>
 
 <script>
 import HeaderNav from '@/components/HeaderView.vue'
+import FooterView from '@/components/FooterView.vue'
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import { Navigation, Pagination } from 'swiper'
 
@@ -186,6 +281,7 @@ export default {
   },
   components: {
     HeaderNav,
+    FooterView,
     Swiper,
     SwiperSlide
   }
@@ -276,6 +372,7 @@ ul{
 }
 .productImg{
   position: relative;
+  max-width: 100%;
 }
 .productTag {
 position: absolute;
@@ -294,12 +391,14 @@ right: -10px;
 }
 
 .historyCulture{
+  position: relative;
+  overflow: hidden;
   margin-bottom: 311px;
 }
 
 .historyText{
   position: relative;
-  font-size: 80px;
+  font-size: 5rem;
   font-weight: bold;
   margin-top: 168px;
   -webkit-writing-mode: vertical-lr;
@@ -325,16 +424,31 @@ right: -10px;
    z-index: 2;
 }
 .historySmallImg{
-  width: 408px;
-  height: 306px;
+  max-width:100%;
+  max-height: 100%;
   position: absolute;
-  margin-top: 220px;
-  left:200px;
+  top: 40%;
+  left: 15%;
+}
+
+.marketCulture{
+  position: relative;
+}
+
+.historyImg{
+  background-image: url("/src/assets/carouselImg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 800px;
+   width: 100%;
+}
+
+.marketDetail{
+  padding-bottom: 90px;
 }
 
 .subDetail{
-  width: 526px;
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: 400;
   margin-bottom: 50px;
 }
@@ -348,15 +462,16 @@ right: -10px;
   top:-20%;
 }
 
-.marketDetail{
-  position: relative;
-}
-
 .marketText{
-  font-size: 80px;
+  font-size: 5rem;
   font-weight: bold;
   -webkit-writing-mode: vertical-lr;
   writing-mode: vertical-lr;
+  margin-right: 93px;
+  margin-left: 93px;
+}
+.marketCount li{
+  padding: 6%;
 }
 
 @media screen and (max-width:992px){
@@ -377,6 +492,10 @@ right: -10px;
   .borderLine{
     border-bottom-style: dotted;
     border-bottom-color: #D1D1D1;
+  }
+  .marketText{
+    position: absolute;
+    top:-10%;
   }
 }
 

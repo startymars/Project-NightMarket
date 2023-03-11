@@ -35,6 +35,32 @@ const routes = [
     path: '/Favorite',
     name: 'Favorite',
     component: () => import('../views/Front/FavoriteView.vue')
+  },
+  {
+    path: '/Login',
+    name: 'Login',
+    component: () => import('../views/Front/adminLogin.vue')
+  },
+  {
+    path: '/admin',
+    component: () => import('../views/Dashabord/DashabordView.vue'),
+    children: [
+      {
+        path: 'adminOrder',
+        name: 'adminOrder',
+        component: () => import('../views/Dashabord/adminOrder.vue')
+      },
+      {
+        path: 'adminNews',
+        name: 'adminNews',
+        component: () => import('../views/Dashabord/adminNews.vue')
+      },
+      {
+        path: 'adminFood',
+        name: 'adminFood',
+        component: () => import('../views/Dashabord/adminFood.vue')
+      }
+    ]
   }
 ]
 
