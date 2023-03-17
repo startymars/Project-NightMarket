@@ -21,7 +21,7 @@ git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://startymars.github.io 
-# git push -f git@github.com:startymars/startymars.github.io.git main
+git push -f git@github.com:startymars/startymars.github.io.git main
 
 # if you are deploying to https://startymars.github.io/Project-NightMarket
 git push -f https://github.com/startymars/nightMarket.git main:gh-pages

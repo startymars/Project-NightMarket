@@ -12,14 +12,14 @@
         <swiper-slide>
           <img
             src='/src/assets/carouselImg.png'
-            class='d-block w-100'
+            class='d-block img-fluid'
             alt='carouselImg'
           />
         </swiper-slide>
         <swiper-slide>
           <img
             src='/src/assets/carouselImg2.png'
-            class='d-block w-100'
+            class='d-block img-fluid'
             alt='carouselImg2'
           />
         </swiper-slide>

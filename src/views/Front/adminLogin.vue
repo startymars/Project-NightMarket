@@ -1,8 +1,8 @@
 <template>
   <div class="background">
-    <div class="container">
-      <div class="bgColor d-flex flex-column justify-content-center">
-        <h4 class="text-center">後台登入</h4>
+    <div class="container bgColor">
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <h4 class="text-center mt-4">後台登入</h4>
         <div class="box">
           <form class="row">
             <div class="col-12 mb-4">
@@ -54,6 +54,7 @@ export default {
           const { token, expired } = res.data
           document.cookie = `week2Token=${token};expires=${new Date(expired)};`
           this.$router.push('/admin')
+          alert(res.data.message)
         })
         .catch((err) => {
           alert(err.response.data.message)
@@ -64,23 +65,22 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 .background {
-  height: 800px;
+  height: 100vh;
   width: 100%;
   background-image: url("https://images.unsplash.com/photo-1617870314635-fc819547ec11?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bmlnaHQlMjBtYXJrZXR8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
 .bgColor {
-  height: 500px;
-  max-width: 1000px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -250px;
-  margin-left: -250px;
+  height: 60vh;
+  width: 50%;
   background-color: rgb(255, 249, 243);
   border-radius: 10px;
   box-shadow: 3px 3px 6px 3px #cccccc;
